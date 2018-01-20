@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
             client.connect(connectOptions, new IMqttActionListener() {
                 @Override
                 public void onSuccess(IMqttToken asyncActionToken) {
+                    publishBtn.setEnabled(true);
                     subscribe();
                 }
 
