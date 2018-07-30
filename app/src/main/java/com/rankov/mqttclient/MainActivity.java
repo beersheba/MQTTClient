@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "ActiveMQ";
     public static final String clientId = "any_client_name";
-    public static final String serverURI = "tcp://192.168.1.15:1883";
+    public static final String serverURI = "tcp://192.168.20.200:1883"; //replace with your ip
     public static final String publishTopic = "outbox";
     public static final String subscribeTopic = "inbox";
 
